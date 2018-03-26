@@ -10,7 +10,7 @@
         <!--  <class name = "testngstuff.SeleniumTest2"/>
            <class name = "testngstuff.SeleniumTest3"/> -->
        <!--    <class name = "testngstuff.DataProviderExample"/> -->
-           <class name = "SeleniumStuff.NewTest"/> 
+           <class name = "com.automation.modules.Login"/> 
            
          </classes> 
          

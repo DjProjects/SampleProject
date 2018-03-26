@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample Test Suite" duration-ms="116" started-at="2018-03-21T15:15:02Z" finished-at="2018-03-21T15:15:02Z">
+  <suite name="Failed suite [Default suite]" duration-ms="18" started-at="2018-03-25T16:38:20Z" finished-at="2018-03-25T16:38:20Z">
     <groups>
     </groups>
-    <test name="Method Test Cases" duration-ms="116" started-at="2018-03-21T15:15:02Z" finished-at="2018-03-21T15:15:02Z">
-      <class name="SeleniumStuff.NewTest">
-        <test-method status="PASS" signature="Test1()[pri:0, instance:SeleniumStuff.NewTest@7c0e2abd]" name="Test1" duration-ms="49" started-at="2018-03-21T20:45:02Z" finished-at="2018-03-21T20:45:02Z">
+    <test name="Default test(failed)" duration-ms="18" started-at="2018-03-25T16:38:20Z" finished-at="2018-03-25T16:38:20Z">
+      <class name="com.automation.modules.Login">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.automation.modules.Login@6d4b1c02]" name="beforeSuite" is-config="true" duration-ms="797" started-at="2018-03-25T22:08:19Z" finished-at="2018-03-25T22:08:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-      </class> <!-- SeleniumStuff.NewTest -->
-    </test> <!-- Method Test Cases -->
-  </suite> <!-- Sample Test Suite -->
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.automation.modules.Login@6d4b1c02]" name="afterSuite" is-config="true" duration-ms="931" started-at="2018-03-25T22:08:20Z" finished-at="2018-03-25T22:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.automation.modules.Login -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>
